@@ -1,5 +1,5 @@
 let listaDeNumerosSorteados = [];
-let numeroLimite = 99;
+let numeroLimite = 50;
 let numeroSecreto = gerarNumeroAleatorio();
 let tentativas = 1;
 
@@ -48,8 +48,7 @@ function gerarNumeroAleatorio() {
    } else {
         listaDeNumerosSorteados.push(numeroEscolhido);
         console.log(listaDeNumerosSorteados);
-        return numeroEscolhido;
-        
+        return numeroEscolhido;      
    }
 }
 
